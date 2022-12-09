@@ -1,2 +1,8 @@
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+glob2
 opencv-python
 tensorflow==2.9.3
