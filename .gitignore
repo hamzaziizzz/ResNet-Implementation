@@ -149,12 +149,12 @@ Animal-Classification-Dataset/
 Animal-Classification-Dataset.zip
 Dog-vs-Cat-Classification.zip
 Dog vs Cat Classification/
-Dog-vs-Cat-Classification/
 Train/
 Test/
 Validate/
 
 # H5 files
+model/
 best_model.h5
 
 # PyCharm
