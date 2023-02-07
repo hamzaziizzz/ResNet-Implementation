@@ -14,7 +14,7 @@
 - GPU Vendor: NVIDIA-MIG-20GB
 
 **Workspace Volume:**
-[x] Don't use Persistent Storage for User's home
+- [x] Don't use Persistent Storage for User's home
 
 *Leave rest as it is and `LAUNCH` notebook*
 
