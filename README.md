@@ -20,6 +20,11 @@
 
 `CONNECT` Notebook Server
 
+## Change Directory
+```bash
+cd /workspace/
+```
+
 ## Clone GitHub Repository
 ```bash
 git clone https://github.com/hamzaziizzz/ResNet-Implementation.git
@@ -27,7 +32,7 @@ git clone https://github.com/hamzaziizzz/ResNet-Implementation.git
 
 ## Change Directory
 ```bash
-cd /workspace/ResNet-Implementation/
+cd ResNet-Implementation/
 ```
 
 ## Install Ubuntu-based Libraries
