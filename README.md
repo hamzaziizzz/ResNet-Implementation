@@ -2,13 +2,17 @@
 
 ## Creating Notebook
 **Name:** resnet-implementation-<your_name>
+
 **Image:** tensorflow:deepops-kubeflow-minimal
+
 **CPU/RAM:**
 - CPU: 8
 - Memory: 16.0Gi
+
 **GPUs:**
 - Number of GPUs: 1
 - GPU Vendor: NVIDIA-MIG-20GB
+
 **Workspace Volume:**
 [x] Don't use Persistent Storage for User's home
 
