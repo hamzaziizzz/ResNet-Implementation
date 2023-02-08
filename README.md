@@ -45,7 +45,7 @@ apt install ffmpeg libsm6 libxext6 -y
 
 ## Install Python Dependencies
 ```bash
-python -r requirements.txt
+pip -r requirements.txt
 ```
 
 *Run Jupyter Notebook*
