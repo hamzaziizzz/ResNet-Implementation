@@ -1,51 +1,34 @@
 # ResNet-Implementation
 
-## Creating Notebook
-**Name:** resnet-implementation-<your_name>
+This repository contains an implementation of the ResNet (Residual Network) architecture using Tensorflow. ResNet is a deep neural network architecture that introduced the concept of residual learning to address the vanishing gradient problem in very deep networks. It has been highly successful in various computer vision tasks, such as image classification and object detection (here, we implemented this for image classification).
 
-**Image:** tensorflow:deepops-kubeflow-minimal
+## What is ResNet?
 
-**CPU/RAM:**
-- CPU: 8
-- Memory: 16.0Gi
+ResNet is a type of convolutional neural network (CNN) proposed by Kaiming He et al. in their paper "Deep Residual Learning for Image Recognition" (2015). It introduces residual blocks that allow layers to learn residual mappings, making it easier to train deeper networks. This architecture has significantly improved the performance and convergence of deep neural networks.
 
-**GPUs:**
-- Number of GPUs: 1
-- GPU Vendor: NVIDIA-MIG-20GB
+## Features
 
-**Workspace Volume:**
-- [x] Don't use Persistent Storage for User's home
+* Implementation of ResNet architecture from scratch using Tensorflow.
+* Pre-trained ResNet models for various image classification tasks.
+* Easy-to-use API for training, testing, and evaluating the ResNet model.
+* Code to visualize and analyze model performance using Confusion Matrix, Precision-Recall Curve and ROC-AUC Curve.
 
-*Leave rest as it is and `LAUNCH` notebook*
+## Matrics
 
-`CONNECT` Notebook Server
+The accuracy of our model (i.e., ResNet-50) on Testing Data (which contains 75 images belonging to 4 classes each) is **92.667%** over 100 epochs.
 
-## Change Directory
-```bash
-cd /workspace/
-```
+### Confusion Matrix
 
-## Clone GitHub Repository
-```bash
-git clone https://github.com/hamzaziizzz/ResNet-Implementation.git
-```
+![Confusion Matrix](matrics\confusion_matrix.png)
 
-## Change Directory
-```bash
-cd ResNet-Implementation/
-```
+### Precision-Recall Curve
 
-## Install Ubuntu-based Libraries
-```bash
-apt update
-```
-```bash
-apt install ffmpeg libsm6 libxext6 -y
-```
+Mean Average Precision (mAP) is **0.9714**
 
-## Install Python Dependencies
-```bash
-pip install -r requirements.txt
-```
+![Precision-Recall Curve](matrics\Precision-Recall_Curve.png)
 
-*Run Jupyter Notebook*
+### ROC-AUC Curve
+
+Mean ROC-AUC Score is **0.9895**
+
+![Precision-Recall Curve](matrics\ROC-AUC_Curve.png)
