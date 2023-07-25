@@ -9,7 +9,7 @@ ResNet is a type of convolutional neural network (CNN) proposed by Kaiming He et
 ## Features
 
 * Implementation of ResNet architecture from scratch using Tensorflow.
-* Pre-trained ResNet models for various image classification tasks.
+* Pre-trained ResNet models for various image classification tasks. <br> [`best_model.h5`](https://www.dropbox.com/scl/fi/habw23oyiqeolk3x6skqc/best_model.h5?rlkey=tfgshoc914qh9aijnstc9yfch&dl=0)
 * Easy-to-use API for training, testing, and evaluating the ResNet model.
 * Code to visualize and analyze model performance using Confusion Matrix, Precision-Recall Curve and ROC-AUC Curve.
 
@@ -19,16 +19,16 @@ The accuracy of our model (i.e., ResNet-50) on Testing Data (which contains 75 i
 
 ### Confusion Matrix
 
-![Confusion Matrix](matrics\confusion_matrix.png)
+![Confusion Matrix](matrics/confusion_matrix.png)
 
 ### Precision-Recall Curve
 
 Mean Average Precision (mAP) is **0.9714**
 
-![Precision-Recall Curve](matrics\Precision-Recall_Curve.png)
+![Precision-Recall Curve](matrics/Precision-Recall_Curve.png)
 
 ### ROC-AUC Curve
 
 Mean ROC-AUC Score is **0.9895**
 
-![Precision-Recall Curve](matrics\ROC-AUC_Curve.png)
+![Precision-Recall Curve](matrics/ROC-AUC_Curve.png)
