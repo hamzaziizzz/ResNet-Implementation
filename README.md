@@ -19,16 +19,16 @@ The accuracy of our model (i.e., ResNet-50) on Testing Data (which contains 75 i
 
 ### Confusion Matrix
 
-![Confusion Matrix](matrics\confusion_matrix.png)
+![Confusion Matrix](matrics/confusion_matrix.png)
 
 ### Precision-Recall Curve
 
 Mean Average Precision (mAP) is **0.9714**
 
-![Precision-Recall Curve](matrics\Precision-Recall_Curve.png)
+![Precision-Recall Curve](matrics/Precision-Recall_Curve.png)
 
 ### ROC-AUC Curve
 
 Mean ROC-AUC Score is **0.9895**
 
-![Precision-Recall Curve](matrics\ROC-AUC_Curve.png)
+![Precision-Recall Curve](matrics/ROC-AUC_Curve.png)
