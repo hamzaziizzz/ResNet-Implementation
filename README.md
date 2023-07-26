@@ -4,6 +4,9 @@
   <img alt="Medium" src="https://img.shields.io/badge/Medium-Read%20Article-White?logo=medium&labelColor=black&color=white">
 </a>
 
+<br>
+<br>
+
 This repository contains an implementation of the ResNet (Residual Network) architecture using Tensorflow. ResNet is a deep neural network architecture that introduced the concept of residual learning to address the vanishing gradient problem in very deep networks. It has been highly successful in various computer vision tasks, such as image classification and object detection (here, we implemented this for image classification).
 
 ## What is ResNet?
